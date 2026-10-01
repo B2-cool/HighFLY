@@ -74,7 +74,7 @@ def main() -> None:
     parser.add_argument(
         "--url",
         required=True,
-        help="Mac receiver URL, e.g. http://192.168.1.20:8765/upload",
+        help="",
     )
     parser.add_argument("--interval", type=float, default=30.0, help="Seconds between photos")
     parser.add_argument("--width", type=int, default=2028)
